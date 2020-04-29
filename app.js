@@ -69,7 +69,7 @@ function nav(path) {
 		}
 	}
 	html += `<div class="mdui-toolbar-spacer"></div>
-    <a href="https://github.com/kulokenci/goindex-drive" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'GoIndex Drive on Github'}">
+    <a href="https://github.com/menecho007/watchanimejs" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'Open Sourced On Github'}">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon" style="width: 24px;height:24px;">
         <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M18,1.4C9,1.4,1.7,8.7,1.7,17.7c0,7.2,4.7,13.3,11.1,15.5
 	c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1
@@ -287,9 +287,9 @@ function file_code(path){
 // file display video |mp4|webm|avi|
 function file_video(path){
 	var url = window.location.origin + path;
-	var playBtn = `<a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="potplayer://${url}"><i class="mdui-icon material-icons">&#xe038;</i>Play in potplayer</a>`;
+	var playBtn = `<a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="potplayer://${url}"><i class="mdui-icon material-icons">&#xe038;</i>Play in potplayer (Browser Playback not Supported)</a>`;
 	if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
-	    playBtn = `	<a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="intent:${url}#Intent;package=com.newin.nplayer.pro;S.title=${path};end"><i class="mdui-icon material-icons">&#xe039;</i>Play in nplayer</a>`;
+	    playBtn = `	<a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="intent:${url}#Intent;package=com.newin.nplayer.pro;S.title=${path};end"><i class="mdui-icon material-icons">&#xe039;</i>Play in nplayer (Browser Playback not Supported)</a>`;
 	}
 	var content = `
 <div class="mdui-container-fluid">
@@ -300,7 +300,7 @@ function file_video(path){
 	<br>${playBtn}
 	<!-Fixed label->
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">download link</label>
+	  <label class="mdui-textfield-label">Download link/Stream Link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 	<div class="mdui-textfield">
@@ -325,7 +325,7 @@ function file_audio(path){
 	<br>
 	<!-Fixed label->
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">Download link</label>
+	  <label class="mdui-textfield-label">Download link/Stream Link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 	<div class="mdui-textfield">
