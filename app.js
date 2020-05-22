@@ -282,7 +282,7 @@ function file_video(path){
 		playBtn += `
 		<li class="mdui-menu-item"><a href="intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${path};end" class="mdui-ripple">MX Player</a></li>
 		<li class="mdui-menu-item"><a href="intent:${url}#Intent;package=com.mxtech.videoplayer.pro;S.title=${path};end" class="mdui-ripple">MX Player Pro</a></li>
-                <li class="mdui-menu-item"><a href="intent:${url}#Intent;package=com.newin.nplayer.pro;S.tile=${path};end" class="mudi-ripple">NPlayer</a></li> 
+                <li class="mdui-menu-item"><a href="intent:${url}#Intent;package=com.newin.nplayer.pro;S.tile=${path};end" class="mudi-ripple">NPlayer </a></li> 
 		<li class="mdui-menu-item"><a href="vlc://${url}" class="mdui-ripple">VLC</a></li>`;
 	}else{
 		playBtn += `
