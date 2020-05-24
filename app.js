@@ -1,4 +1,4 @@
-var Rooturl = "watch.an1m3-w4tch3rs.me"
+var RootUrl = "watch.an1m3-w4tch3rs.me"
 if(window.location.href === RootUrl) {window.location.replace("https://an1m3-w4tch3rs.me/leecher.html");}
 
 // load in head necessary static
