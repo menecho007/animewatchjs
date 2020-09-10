@@ -15,7 +15,7 @@ const ap = new APlayer({
         {
             name: 'Mukanjyo',
             artist: 'Survive Said The Prophet',
-            url: 'https://music.yolodev.workers.dev/1:/Music/song.mp3',
+            url: 'https://music.yolodev.workers.dev/1:/Music/mukanjyo.mp3',
             cover: 'https://music.yolodev.workers.dev/1:/mukanjyo_poster.jpg',
             lrc: 'https://files.catbox.moe/fyv5b2.lrc',
             theme: '#ebd0c2'
@@ -47,7 +47,7 @@ const ap = new APlayer({
             name: 'Kawaki wo ameku',
             artist: 'Minami',
             url: 'https://music.yolodev.workers.dev/1:/Music/%E7%BE%8E%E6%B3%A2%E3%80%8C%E3%82%AB%E3%83%AF%E3%82%AD%E3%83%B2%E3%82%A2%E3%83%A1%E3%82%AF%E3%80%8DMV.mp3',
-            cover: 'https://music.yolodev.workers.dev/1:/Poster/Annotation%202020-09-10%20162421.png',
+            cover: 'https://music.yolodev.workers.dev/1:/Poster/crying%20for%20rain.png',
             lrc: 'lrc2.lrc',
             theme: '#46718b'
         },
@@ -60,7 +60,7 @@ const ap = new APlayer({
             theme: '#46718b'
         },       
         {
-            name: 'We\'ll be alright',
+            name: 'Daijoubu',
             artist: 'RADWIMPS',
             url: 'https://music.yolodev.workers.dev/1:/Music/%E5%A4%A7%E4%B8%88%E5%A4%AB%20RADWIMPS%20MV.mp3',
             cover: 'https://greenmoriyama.files.wordpress.com/2019/07/6b528e279a4e4ff87ba8f0d228d6d5bf1544709553_full.jpg',
