@@ -16,7 +16,7 @@ const ap = new APlayer({
             name: 'Mukanjyo',
             artist: 'Survive Said The Prophet',
             url: 'https://music.yolodev.workers.dev/1:/Music/mukanjyo.mp3',
-            cover: 'https://music.yolodev.workers.dev/1:/mukanjyo_poster.jpg',
+            cover: 'https://music.yolodev.workers.dev/1:/Poster/mukanjyo_poster.jpg',
             lrc: 'https://files.catbox.moe/fyv5b2.lrc',
             theme: '#ebd0c2'
         },
