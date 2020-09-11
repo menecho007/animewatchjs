@@ -18,7 +18,7 @@ const ap = new APlayer({
             url: 'https://music.yolodev.workers.dev/1:/Music/mukanjyo.mp3',
             cover: 'https://music.yolodev.workers.dev/1:/Poster/mukanjyo_poster.jpg',
             lrc: 'https://files.catbox.moe/fyv5b2.lrc',
-            theme: '#ebd0c2'
+            theme: '#616161'
         },
         {
             name: 'Zen Zen Zense',
@@ -26,7 +26,7 @@ const ap = new APlayer({
             url: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/yourname.mp3',
             cover: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/yourname.jpg',
             lrc: 'https://cn-south-17-aplayer-46154810.oss.dogecdn.com/yourname.lrc',
-            theme: '#505d6b'
+            theme: '#616161'
         },
         { 
             name: 'Shinzou wo Sasageyo',
