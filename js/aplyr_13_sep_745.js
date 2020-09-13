@@ -1,4 +1,4 @@
-// 13 Sept 7:41pm IST 2020
+// 13 Sept 7:45pm IST 2020
 
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
@@ -217,7 +217,7 @@ const ap = new APlayer({
         {
             name: 'Say So [Jap Cover]',
             artist: 'Rainych',
-            url: 'https://music.yolodev.workers.dev/1:/Music/sayso.jpg',
+            url: 'https://music.yolodev.workers.dev/1:/Music/sayso.mp3',
             cover: 'https://music.yolodev.workers.dev/1:/Poster/sayso.jpg',
             lrc: 'https://files.catbox.moe/ltme54.lrc',
             theme: '#46718b'
